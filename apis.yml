@@ -127,7 +127,7 @@ common:
     url: https://jakarta.ee/specifications/
   - type: Documentation
     url: https://jakarta.ee/learn/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/jakartaee
   - type: News
     url: https://jakarta.ee/news/
