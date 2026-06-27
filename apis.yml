@@ -125,7 +125,7 @@ common:
     url: https://www.linkedin.com/showcase/jakartaee
   - type: Website
     url: https://jakarta.ee/
-  - type: Specifications
+  - type: Specification
     url: https://jakarta.ee/specifications/
   - type: Documentation
     url: https://jakarta.ee/learn/
