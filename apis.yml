@@ -121,6 +121,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/jakartaee/validation
 common:
+  - type: DomainSecurity
+    url: security/jakarta-ee-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/jakartaee
   - type: Website
@@ -137,6 +139,8 @@ common:
     url: https://jakarta.ee/community/
   - type: Eclipse Foundation
     url: https://www.eclipse.org/
+  - url: https://jakarta.ee/index.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
