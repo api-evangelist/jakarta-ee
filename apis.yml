@@ -133,6 +133,14 @@ apis:
       - type: GitHubRepository
         url: https://github.com/jakartaee/validation
 common:
+  - type: IssueTracker
+    url: https://github.com/jakartaee/rest/issues
+  - type: Releases
+    url: https://github.com/jakartaee/rest/releases
+  - type: CodeOfConduct
+    url: https://github.com/jakartaee/.github/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/jakartaee/rest/blob/main/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/jakarta-ee-domain-security.yml
   - type: LinkedIn
