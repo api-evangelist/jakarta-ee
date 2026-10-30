@@ -1,4 +1,4 @@
-# Jakarta EE (jakarta-ee)
+# Jakarta EE
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,121 +66,107 @@
 
 Jakarta EE is the open source successor to Java EE, providing a set of specifications for enterprise Java development. Jakarta EE is developed under the Eclipse Foundation and includes specifications for web services, messaging, persistence, security, and other enterprise computing needs.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/jakarta-ee/refs/heads/main/apis.yml)
+**Areas:** Enterprise · Jakarta EE · Java · Standards
 
-## Scope
+## Jakarta EE on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Jakarta EE is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jakarta-ee/](https://apis.io/providers/jakarta-ee/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (6)
 
- - Jakarta EE, Java, Enterprise, Standards
+- [Jakarta RESTful Web Services](https://apis.io/apis/jakarta-ee/jakarta-restful-web-services/) — Jakarta RESTful Web Services (formerly JAX-RS) is the API specification for developing web services that follow the REST architectural pattern. It defines a…
+- [Jakarta JSON Processing](https://apis.io/apis/jakarta-ee/jakarta-json-processing/) — Jakarta JSON Processing (formerly JSON-P) provides an API to parse, generate, transform, and query JSON documents. It includes a streaming API similar to…
+- [Jakarta JSON Binding](https://apis.io/apis/jakarta-ee/jakarta-json-binding/) — Jakarta JSON Binding (formerly JSON-B) is a binding framework for converting Java objects to and from JSON documents. It provides a default mapping between…
+- [Jakarta WebSocket](https://apis.io/apis/jakarta-ee/jakarta-websocket/) — Jakarta WebSocket defines a standard API for creating server and client endpoints that communicate using the WebSocket protocol (RFC 6455). It enables…
+- [Jakarta Servlet](https://apis.io/apis/jakarta-ee/jakarta-servlet/) — Jakarta Servlet is a server-side Java API for handling HTTP requests and generating dynamic responses. It provides the foundational programming model for…
+- [Jakarta Validation](https://apis.io/apis/jakarta-ee/jakarta-validation/) — Jakarta Validation (formerly Bean Validation) provides an object-level constraint declaration and validation facility through annotations and a runtime API.…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Jakarta RESTful Web Services
-Jakarta RESTful Web Services (formerly JAX-RS) is the API specification for developing web services that follow the REST architectural pattern. It defines a set of Java APIs and annotations that enable the development and deployment of RESTful web services on the Jakarta EE platform.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://jakarta.ee/specifications/restful-ws/](https://jakarta.ee/specifications/restful-ws/)
+- [Jakarta Ee Domain Security](https://apis.io/security/jakarta-ee/jakarta-ee-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - REST, Web Services, Specification
+Published plans, tiers and prices.
 
-#### Properties
+- [Jakarta Ee Plans Pricing](https://apis.io/plans/jakarta-ee/jakarta-ee-plans-pricing/)
 
-- [Documentation](https://jakarta.ee/specifications/restful-ws/)
-- [GitHubRepository](https://github.com/jakartaee/rest)
+#### Rate limits (1)
 
-### Jakarta JSON Processing
-Jakarta JSON Processing (formerly JSON-P) provides an API to parse, generate, transform, and query JSON documents. It includes a streaming API similar to StAX and an object model API similar to DOM for working with JSON data in Jakarta EE applications.
+Published request limits.
 
-**Human URL:** [https://jakarta.ee/specifications/jsonp/](https://jakarta.ee/specifications/jsonp/)
+- [Jakarta Ee Rate Limits](https://apis.io/rate-limits/jakarta-ee/jakarta-ee-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - JSON, Parsing, Specification
+What the API costs to run, by operation.
 
-#### Properties
+- [Jakarta Ee Finops](https://apis.io/finops/jakarta-ee/jakarta-ee-finops/)
 
-- [Documentation](https://jakarta.ee/specifications/jsonp/)
-- [GitHubRepository](https://github.com/jakartaee/jsonp-api)
+## Where to find this API
 
-### Jakarta JSON Binding
-Jakarta JSON Binding (formerly JSON-B) is a binding framework for converting Java objects to and from JSON documents. It provides a default mapping between classes and JSON, with the ability to customize the mapping process through a comprehensive configuration API.
-
-**Human URL:** [https://jakarta.ee/specifications/jsonb/](https://jakarta.ee/specifications/jsonb/)
-
-#### Tags:
-
- - JSON, Binding, Specification
-
-#### Properties
-
-- [Documentation](https://jakarta.ee/specifications/jsonb/)
-- [GitHubRepository](https://github.com/jakartaee/jsonb-api)
-
-### Jakarta WebSocket
-Jakarta WebSocket defines a standard API for creating server and client endpoints that communicate using the WebSocket protocol (RFC 6455). It enables full-duplex, bidirectional communication between clients and servers over a single TCP connection in Jakarta EE applications.
-
-**Human URL:** [https://jakarta.ee/specifications/websocket/](https://jakarta.ee/specifications/websocket/)
-
-#### Tags:
-
- - WebSocket, Streaming, Specification
-
-#### Properties
-
-- [Documentation](https://jakarta.ee/specifications/websocket/)
-- [GitHubRepository](https://github.com/jakartaee/websocket)
-
-### Jakarta Servlet
-Jakarta Servlet is a server-side Java API for handling HTTP requests and generating dynamic responses. It provides the foundational programming model for Java-based web applications and underpins many other Jakarta EE web technologies including RESTful Web Services and WebSocket.
-
-**Human URL:** [https://jakarta.ee/specifications/servlet/](https://jakarta.ee/specifications/servlet/)
-
-#### Tags:
-
- - HTTP, Web, Specification
-
-#### Properties
-
-- [Documentation](https://jakarta.ee/specifications/servlet/)
-- [GitHubRepository](https://github.com/jakartaee/servlet)
-
-### Jakarta Validation
-Jakarta Validation (formerly Bean Validation) provides an object-level constraint declaration and validation facility through annotations and a runtime API. It is widely used to validate inputs in REST endpoints, persistence entities, and other Jakarta EE components.
-
-**Human URL:** [https://jakarta.ee/specifications/bean-validation/](https://jakarta.ee/specifications/bean-validation/)
-
-#### Tags:
-
- - Validation, Specification
-
-#### Properties
-
-- [Documentation](https://jakarta.ee/specifications/bean-validation/)
-- [GitHubRepository](https://github.com/jakartaee/validation)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://jakarta.ee/)
-- [Specifications](https://jakarta.ee/specifications/)
 - [Documentation](https://jakarta.ee/learn/)
-- [GitHub Organization](https://github.com/jakartaee)
-- [News](https://jakarta.ee/news/)
-- [Community](https://jakarta.ee/community/)
-- [Eclipse Foundation](https://www.eclipse.org/)
+- [Blog](https://jakarta.ee/index.xml)
+- [GitHub](https://github.com/jakartaee)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 54.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jakarta-ee/](https://apis.io/providers/jakarta-ee/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jakarta EE: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jakarta-ee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
